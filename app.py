@@ -4,7 +4,7 @@ from shapely import wkt
 import shapely.ops
 from geotiff import GeoTiff
 
-geo_tiff = GeoTiff('data/srtm_N55E160.tif')
+geo_tiff = GeoTiff('srtm_N55E160.tif')
 
 def wkt_loads(x):
     try:
